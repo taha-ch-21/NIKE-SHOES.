@@ -1,0 +1,142 @@
+* {
+  /* font-weight: bold; */
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.logo img {
+  /* margin-top: 10px; */
+  margin-left: 30px;
+  width: 70px;
+}
+.navbar {
+  display: flex;
+
+  align-items: center;
+  /* justify-content: scenter; */
+  height: 60px;
+  /* border: 2px solid red; */
+}
+.items {
+
+  margin-left: 50px;
+  /* width: 30%; */
+  cursor: pointer;
+  
+}
+.items  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items  li {
+  list-style: none;
+  text-decoration: none;
+}
+.items  li {
+  /* list-style: none; */
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+
+.icons {
+  margin-left: 400px;
+}
+.icons i {
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.content {
+  height: calc(100%-60px);
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.content-left {
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center */
+  height: 100%;
+  padding: 80px 50px;
+  width: 40%;
+}
+.content-left h5 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+}
+.content-left h1 {
+  font-size: 55px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 15px;
+}
+.btn {
+  background: linear-gradient(45deg, #121111, #000000be, #0000009d, #222);
+  background-size: 400% 400%;
+  margin-top: 20px;
+  width: 250px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  animation-name: gradientShift;
+  animation-duration: 8s ease infinite;
+  box-shadow: 0 0 20px rgba(150, 0, 0, 0.505);
+}
+.btn:hover {
+  box-shadow: 0 0 20px rgba(35, 29, 29, 0.8);
+  transform: scale(1.05);
+}
+.content-right {
+  padding: 70px 80px;
+  width: 45%;
+  height: 100%;
+  padding: 110px 100px;
+  display: flex;
+}
+.product {
+  height: 270px;
+  width: 250px;
+  border: 2px solid rgba(255, 0, 0, 0.311);
+  margin-right: 15px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.845);
+}
+.product:hover {
+  transform: scale(1.1);
+}
+.product img {
+  width: 150px;
+  border-radius: 15px;
+  /* border: 1px solid red; */
+}
+.product h4 {
+  font-size: 22px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: red;
+}
+.product p {
+  font-size: 16px;
+  margin-top: 4px;
+  font-weight: bold;
+  margin-left: 20px;
+}
